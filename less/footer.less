@@ -1,6 +1,6 @@
 footer#foot{
 	background-color: blueviolet;
-	width:100%;
+	width:@hn;
 	height:40rem;
 	margin:.7rem;
 	img{
@@ -10,17 +10,17 @@ footer#foot{
 }
 
 footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	display: @f;
+	flex-direction: @fc;
+	justify-content: @se;
 	img{
-		display: flex;
-		align-self:center;
+		display: @f;
+		align-self:@c;
 		
 	}
 	nav.navcon{
 		background-color: black;
-		width:100%;
+		width:@hn;
 		height:20rem;
 				button{
 					margin:1rem;
@@ -29,13 +29,13 @@ footer{
 				}
 	}
 	nav{
-		display: flex;
-		flex-direction: row;
+		display: @f;
+		flex-direction: @fr;
 		
-		justify-content: space-evenly;
+		justify-content: @se;
 		button{
-			display: flex;
-			align-self: center;
+			display: @f;
+			align-self: @c;
 			//align-content: center;
 			
 		}
