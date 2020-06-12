@@ -1,5 +1,6 @@
 /* Header */
-/* */
+/* Home-page*/
+/* Footer */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -123,6 +124,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -206,11 +217,6 @@ section#tsec {
   height: 66rem;
   margin: 0rem 3rem 0rem 3rem;
 }
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 section div#topSec {
   display: flex;
   flex-direction: column;
@@ -241,11 +247,6 @@ footer#foot {
 footer#foot img {
   width: 85%;
   height: 22rem;
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 footer img {
   display: flex;
